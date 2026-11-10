@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Neuro Recode",
+    "slug": "neuro-recode",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "neurorecode",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F766E"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.neurorecode.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Needed to capture your daily RRR practice photo."
+      }
+    },
+    "android": {
+      "package": "com.neurorecode.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0F766E"
+      },
+      "permissions": ["CAMERA", "POST_NOTIFICATIONS"]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        { "cameraPermission": "Allow Neuro Recode to use your camera for daily RRR uploads." }
+      ],
+      [
+        "expo-notifications",
+        { "icon": "./assets/notification-icon.png", "color": "#0F766E" }
+      ]
+    ],
+    "extra": {
+      "supabaseUrl": "https://YOUR-PROJECT.supabase.co",
+      "supabaseAnonKey": "YOUR-ANON-KEY",
+      "eas": { "projectId": "" }
+    }
+  }
+}

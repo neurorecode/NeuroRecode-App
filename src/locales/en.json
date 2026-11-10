@@ -1,0 +1,64 @@
+{
+  "app": { "name": "Neuro Recode" },
+  "auth": {
+    "phoneTitle": "Enter your mobile number",
+    "phoneSubtitle": "We'll send you a one-time password on WhatsApp/SMS.",
+    "phonePlaceholder": "+91 98765 43210",
+    "sendOtp": "Send OTP",
+    "otpTitle": "Enter the 6-digit code",
+    "verify": "Verify",
+    "resend": "Resend code"
+  },
+  "onboarding": {
+    "title": "Welcome, {{name}}!",
+    "namePlaceholder": "Your name",
+    "languageLabel": "Preferred language",
+    "timeLabel": "Preferred practice time",
+    "consentWhatsapp": "Send me reminders on WhatsApp",
+    "consentPush": "Send me push notifications",
+    "continue": "Continue",
+    "english": "English",
+    "tamil": "Tamil"
+  },
+  "intro": {
+    "title": "The 60-Day RRR Challenge",
+    "body": "RRR — Recognise, Release, Recode — is a daily 10-minute practice. Upload a photo every day to prove you did it. 60 days in a row rewires your brain.",
+    "start": "Begin Day 1"
+  },
+  "home": {
+    "dayOf": "Day {{day}} of 60",
+    "pending": "Today pending",
+    "completed": "Day complete",
+    "upload": "Upload Today's RRR",
+    "streak": "Current streak",
+    "longest": "Longest streak",
+    "missed": "Missed days",
+    "warning2": "You've missed 2 days in a row. Finish today to avoid being flagged.",
+    "warning3": "You missed 3 days in a row — our team may reach out to support you."
+  },
+  "upload": {
+    "title": "Capture Today's Proof",
+    "note": "How did you feel today? (optional)",
+    "notePlaceholder": "A word or two…",
+    "submit": "Submit",
+    "retake": "Retake",
+    "permission": "Camera permission is required.",
+    "grant": "Grant permission",
+    "uploading": "Uploading…",
+    "lockedTitle": "Already uploaded",
+    "lockedBody": "You've completed today. See you tomorrow!"
+  },
+  "celebrate": {
+    "title": "Day {{day}} done!",
+    "body": "Come back tomorrow to keep the streak alive.",
+    "home": "Back to home"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "reminderTimes": "Reminder times",
+    "whatsapp": "WhatsApp reminders",
+    "logout": "Log out"
+  },
+  "common": { "cancel": "Cancel", "save": "Save", "loading": "Loading…" }
+}
